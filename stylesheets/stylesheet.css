@@ -286,10 +286,37 @@ p a {
 }
 
 blockquote {
+  background: #f8f8f8;
+  font-weight: 700;
+  color: #333;
   font-size: 1.4em;
-  border-left: 10px solid #e9e9e9;
+  line-height: 1.4;
   margin-bottom: 20px;
-  padding: 0 0 0 30px;
+  padding: 10px 10px 10px 40px;
+  position: relative;
+  border-radius: 8px;
+}
+
+blockquote:before, blockquote:after {
+    color: #999;
+    position: absolute;
+    font-size: 2em;
+}
+blockquote:before {
+    content: '\201C';
+    left: 8px;
+    top: 0;
+}
+
+blockquote small {
+    display: block;
+    margin-top: -15px;
+    font-size: 0.7em;
+    color: #999;
+}
+
+blockquote small:before {
+    content: '\2014 \00A0';
 }
 
 ul li {
