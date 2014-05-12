@@ -1,3 +1,7 @@
+body {
+  padding-bottom: 30px;
+}
+
 h1 img {
   vertical-align: top;
   max-height: 36px;
