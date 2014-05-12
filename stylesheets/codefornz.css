@@ -8,6 +8,11 @@ h1 img {
   }
 }
 
+.navbar-brand img {
+  height: 18px;
+  vertical-align: top;
+}
+
 .jumbotron .lead {
   font-size: 28px;
 }
