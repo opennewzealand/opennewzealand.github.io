@@ -1,0 +1,26 @@
+h1 img {
+  vertical-align: top;
+  max-height: 36px;
+}
+@media screen and (min-width: 768px) {
+  h1 img {
+    max-height: 63px;
+  }
+}
+
+.jumbotron .lead {
+  font-size: 28px;
+}
+
+.project {
+  display: block;
+  box-shadow: inset 0 0 30px rgba(0,0,0,0.2);
+  margin: 0 15px 15px 0;
+  color: #333;
+  padding: 20px;
+}
+.project:hover {
+  box-shadow: inset 0 0 30px rgba(0,0,128,0.2);
+  color: #003;
+  text-decoration: none;
+}
